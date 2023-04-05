@@ -1,8 +1,8 @@
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/MinuParkBasler/Qylon/blob/main/Qylon_W.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/MinuParkBasler/Qylon/blob/main/Qylon_B.png">
-  <img alt="Qylon is Qt ported pylon" src="https://github.com/MinuParkBasler/Qylon/blob/main/Qylon_W.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/MinuParkBasler/QylonTestFlight/blob/main/Qylon_W.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/MinuParkBasler/QylonTestFlight/blob/main/Qylon_B.png">
+  <img alt="Qylon is Qt ported pylon" src="https://github.com/MinuParkBasler/QylonTestFlight/blob/main/Qylon_W.png">
 </picture>
 
 # Qylon TestFlight
