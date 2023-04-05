@@ -9,7 +9,7 @@ If you have any questions, feel free to contact me via [e-mail](minu.park@basler
 
 ## How to build this example code
 
-You can type these commands
+You can type these commands as below.
 
 ```
 git clone git@github.com:MinuParkBasler/QylonTestFlight.git
@@ -19,4 +19,4 @@ git submodule update
 
 and then, open your Qt creator or an editor which can build this example.
 
-Open .pro file(QylonTestFlight.pro) in this project and build it.
+Open [.pro file](QylonTestFlight.pro) in this project and build it.
