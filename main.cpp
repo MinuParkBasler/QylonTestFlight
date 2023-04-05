@@ -13,7 +13,8 @@ int main(int argc, char *argv[])
 
 
 
-    auto obj = qy.addQylonCamera();
+
+    auto obj = qy.addCamera();
 //    obj->openCamera("Basler acA1300-60gm (24070434)");
 
     w.set(obj);
