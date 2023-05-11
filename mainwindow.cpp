@@ -23,10 +23,8 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->pushButton_2, &QPushButton::clicked,  this, [=](){
         this->qylon->stopGrab();
     });
-
     timer.start(1000);
     connect(&timer, &QTimer::timeout, [this](){
-
         this->ui->statusbar->showMessage("FPS : " + QString::number(cnt));
         cnt = 0;
     });

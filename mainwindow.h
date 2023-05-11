@@ -22,13 +22,14 @@ public:
 
     void set(Qylon::Camera *obj){
         qylon = obj;
-//        qylon->getWidget()->setParent(this);
-
-
     }
 
 public slots:
     void get();
+    void get(QImage image){
+        item.setPixmap(QPixmap::fromImage(image));
+    }
+
 
 private:
     Ui::MainWindow *ui;
